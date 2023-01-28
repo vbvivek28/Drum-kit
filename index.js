@@ -53,7 +53,7 @@ function makesound(keycheck){
 function animated(crr_key){
 
    var active_button=document.querySelector("."+crr_key);
-   active_button.classList.toggle("pressed");
+   active_button.classList.add("pressed");
 
    setTimeout(function(){
       active_button.classList.remove("pressed");
