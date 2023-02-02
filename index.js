@@ -1,5 +1,5 @@
 for(var i=0;i<document.querySelectorAll(".drum").length;i++){
-document.querySelectorAll(".drum")[i].addEventListener("touchstart",function ()
+document.querySelectorAll(".drum")[i].addEventListener("click",function ()
 {
    var buttonInhtml=this.innerHTML;
    makesound(buttonInhtml);
